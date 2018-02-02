@@ -2,6 +2,13 @@ body {
 	text-align: center;
 }
 
+p {
+	border: solid;
+    border-color: #2b3e4f;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
 .button-section{
 	max-width: 90%;
 	border-radius: 5px;
@@ -24,26 +31,24 @@ body {
 	padding: 5px;
 }
 
+button {
+	border-radius: 5px;
+}
+
 .main-section {
 	max-width: 90%;
-	/*border-color: white;*/
-	/*border-width: 1px;*/
-	/*border: solid;*/
 	border-radius: 5px;
 	margin: auto;
 	height: auto; /*change height to auto!*/
 	background-color: rgba(69,83,97, .56);
 	padding-bottom: 2.5%;
-	height: 550px
+	clear: both;
+	overflow: hidden; /* this was the key to making the section grow with the inputed gifs */
 }
 
 .gif-drop {
-	/*border-color: black;*/
-	/*border-width: 1px;*/
-	/*border: solid;*/
 	border-radius: 5px;
 	float: left;
-	height: 325px;
 	width: 61%;
 	margin-left: 2.5%;
 	margin-right: 1.25%;
@@ -51,8 +56,18 @@ body {
 	border: solid;
 	border-color: #2b3e4f;
 	border-width: 2px;
-	height: 500px;
+	height: auto;
+	padding: 10px;
+}
 
+.posted-gif {
+	margin: 5px;
+}
+
+.gif-image {
+	width: 200px;
+    height: 130px;
+    border-radius: 5px;
 }
 
 .search-section {
