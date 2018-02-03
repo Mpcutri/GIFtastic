@@ -1,5 +1,7 @@
 body {
 	text-align: center;
+	background-color: #ebebeb;
+	background-image: url('images/ignasi_pattern_s.png');
 }
 
 p {
@@ -18,7 +20,7 @@ p {
 	/*background-color: #d16f33;*/
 	position: relative;
 	z-index: 10;
-	background-color: rgba(69,83,97, .56);
+	background-color: rgba(61, 83, 105, 0.56);
 	padding: 2.5%;
 }
 
@@ -40,7 +42,7 @@ button {
 	border-radius: 5px;
 	margin: auto;
 	height: auto; /*change height to auto!*/
-	background-color: rgba(69,83,97, .56);
+	background-color: rgba(61, 83, 105, 0.56);
 	padding-bottom: 2.5%;
 	clear: both;
 	overflow: hidden; /* this was the key to making the section grow with the inputed gifs */

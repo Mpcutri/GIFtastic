@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    buttonTitles = ["The Worm", "Moonwalk", "Headspin", "Synchronized Swimming", "Ballet", "Ghost Ridin' The Whip", "Cossack", "The Lawnmower", "Soulja Boy", "The Carleton", "Floss Dance", "Sign Spinning"]
+    buttonTitles = ["The Worm Dance", "Moonwalk", "Headspin", "Interpretive Dance", "Synchronized Swimming", "Ballet", "Ghost Ridin' The Whip", "Russian Dance", "The Carleton Dance", "Floss Dance", "Sign Spinning"]
     $(".gif-drop").hide();
 
     function displayArrayButtons () {
